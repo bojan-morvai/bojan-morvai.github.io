@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Bojan Morvai Portfolio</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<link rel="stylesheet" href="css/main.css">
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+			<style>
+				body {
+					display: block;
+				}
+			</style>
+		</noscript>
+	</head>
+	<body class="landing">
+
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="#top">Home</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a id='button-projects' href="#my-projects">Projects</a></li>
+						<li><a href="">CV</a></li>
+						<li><a href="#my-contact">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<h2>This is Porfolio site</h2>
+				<p>Bojan Morvai - Front-end Developer</p>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper style1 align-center">
+				<div class="container one">
+					<header>
+						<h2>About Me</h2>
+						<p>Hi, my name is Bojan Morvai, I'm a self-taught front-end developer from Novi Sad, Serbia, with experience in HTML, CSS, Javascript and Python.</p>
+						<p>Programming is my rediscovered passion, since I attended Electro-technical High School "Mihajlo Pupin" in Novi Sad for Computer Technician, before going to Faculty of Philosophy in Novi Sad, departmant - pedagogy. </p>
+						<P>Since I finished my studies over two years ago, I'm actively engaged in programming, attended several courses on internet, made several of my own projects that you can see on this site, and still learning about this passion of mine every day. Although I'm for now mainly front-end oriented, I have knowledge of back-end as well, and I'm looking forward to deepen that knowledge in the future. Technologies I work with include HTML, CSS, Bootstrap, Javascript, jQuery, React, NodeJS, Express, MongoDB, Git, Python...</P>
+					</header>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style2 align-center">
+				<div class="container">
+					<header>
+						<h2 id='my-projects'>My Projects</h2>
+						<p>Below are projects that I worked on. I made them mainly for deepening my knowledge about web development and programming, and there is one website that is used today by my customers </p>
+					</header>
+					<button class='show-all'>Show Projects</button>
+					<div class="row">
+						<section class="project-section">
+							<div class='project-div'>
+								<div class='project-left'>
+									<h3><strong>Browser Poker App</strong></h3>
+									<img class="image fit" src="images/poker.jpg" alt="" />
+									<p>This application is one page five card poker game, with extra second game added that player can optionally play after they won something. Players have credits that they spend on playing each instance of a game.</p>
+									<h4><strong>Technologies used:</strong></h4>
+									<div class='technologies'>
+										<ul>
+											<li>HTML5</li>
+											<li>CSS3</li>
+											<li>JavaScript</li>
+											<li>EJS</li>
+											<li>Express</li>
+											<li>NodeJS</li>
+										</ul>
+										<ul>
+											<li>Bootstrap</li>
+											<li>jQuery</li>
+											<li>Body Parser</li>
+											<li>Mongoose</li>
+											<li>MongoDB Atlas</li>
+											<li>Passport</li>
+										</ul>
+									</div>
+								</div>
+								<div class='project-right'>
+									<h4><strong>Notable features:</strong></h4>
+									<ul>
+										<li>Made using OOP (card, deck of cards)</li>
+										<li>Increasing difficulity after every ten games</li>
+										<li>Increasing winnings accordingly</li>
+										<li>Second game to increase winnings or lose it, <br>of guessing higher or lower cards</li>
+										<li>Both games done on one page without reloading</li>
+										<li>Messages that tracks your winnings</li>
+										<li>Multiple ways of selecting cards (click on button, card, or by keyboard)</li>
+										<li>Possibility of saving current game in database by entering username and password</li>
+										<li>Database used is MongoDB Atlas</li>
+										<li>Possibility to load previous saved game by logging in (entering username and password)</li>
+										<li>When player is logged in, he can update his saved game with current state</li>
+										<li>Logout</li>
+									</ul>
+									
+								</div>
+							</div>
+							<a href='https://github.com/bojan-morvai/poker' target='_blank'><button class='button-git'>View on Github</button></a>
+							<a href='https://poker-browser-game.herokuapp.com/' target='_blank'><button class='button-live'>Live Version</button></a>
+							<hr>
+						</section>
+
+						<section class="project-section">
+							<div class='project-div'>
+								<div class='project-left'>
+									<h3><strong>Hungarian Dictionary App</strong></h3>
+									<img class="image fit" src="images/madjarski.jpg" alt="" />
+									<p>App to practice hungarian-serbian words translations. When user select which category of words he would like to practice on, and on which language, random word from selected categories appear and user has to input translation. Words are fetched through database.</p>
+									<h4><strong>Technologies used:</strong></h4>
+									<div class='technologies'>
+										<ul>
+											<li>HTML5</li>
+											<li>CSS3</li>
+											<li>JavaScript</li>
+											<li>EJS</li>
+											<li>Express</li>
+											<li>NodeJS</li>
+											<li>Connect Flash</li>
+										</ul>
+										<ul>
+											<li>Bootstrap</li>
+											<li>jQuery</li>
+											<li>Mongoose</li>
+											<li>MongoDB Atlas</li>
+											<li>Passport</li>
+											<li>Body Parser</li>
+										</ul>
+									</div>
+								</div>
+								<div class='project-right'>
+									<h4><strong>Notable features:</strong></h4>
+									<ul>
+										<li>Choosing from different categories of words</li>
+										<li>Turn on and off any category of words during game</li>
+										<li>If no category of words is selected, game stops</li>
+										<li>Choosing on which language to answer</li>
+										<li>Instructions in serbian</li>
+										<li>All done on one page without reloading</li>
+										<li>Messages and icons appear to notify if user guessed correctly or incorrectly</li>
+										<li>If user wants to move to the next word, button for skipping the current word</li>
+										<li>When current guess have two missplaced, wrong or less letters, notification that user is close to correct answer</li>
+										<li>Counter of correct and wrong answers, and button to restart it</li>
+										<li>Help section - on mouse hover shows first letter of solution</li>
+										<li>Showing of previous word and it's translation</li>
+										<li>When guessed correctly specific word three times, that word is removed from game</li>
+										<li>If all words from selected categories are guessed correctly three times, that category becomes unavailable until page reloads</li>
+										<li>All words are fetched from MongoDB Atlas, if there is some error accessing db, some words are available locally</li>
+										<li>Possibility to enter new words to DB, through login - username: bojan, password: morvai</li>
+										<li>Search for existing word in db on enter new word page</li>
+										<li>When new word is added to appropriate category, it's also added to 'new' ('novo') category</li>
+									</ul>
+									
+								</div>
+							</div>
+							<a href='https://github.com/bojan-morvai/hungarian_dict' target='_blank'><button class='button-git'>View on Github</button></a>
+							<a target="_blank" href="https://madjarski.herokuapp.com/"><button class='button-live'>Live Version</button></a>
+							<hr>
+						</section>
+						<button class='show-more'>Show More</button>
+						
+						<section class="project-section sec-3 section-overflow">
+							<div class='project-div'>
+								<div class='project-left'>
+									<h3><strong>Website for music group La Banda</strong></h3>
+									<img class="image fit" src="images/labanda.jpg" alt="" />
+									<p>This is a website for music group La Banda from Novi Sad</p>
+									<h4><strong>Technologies used:</strong></h4>
+									<div class='technologies'>
+										<ul>
+											<li>HTML5</li>
+											<li>CSS3</li>
+											<li>JavaScript</li>
+											<li>RSV Slider</li>
+										</ul>
+										<ul>
+											<li>Bootstrap</li>
+											<li>Jquery</li>
+											<li>LightBox by Lokesh Dhakar</li>
+										</ul>
+									</div>
+								</div>
+								<div class='project-right'>
+									<h4><strong>Notable features:</strong></h4>
+									<ul>
+										<li>Responsive for desktop, laptop and mobile screens</li>
+										<li>Three pages - home, biography, gallery</li>
+										<li>YouTube content wrapped in RSV player</li>
+										<li>Photo Gallery made using Lightbox</li>
+										<li>Possibility of switching the site language: english and serbian</li>
+										<li>Using smaller images when on smaller screens</li>
+										<li>Possibility of downloading band's promo materials directly from navbar</li>
+									</ul>
+									
+								</div>
+							</div>
+							<a href="https://github.com/bojan-morvai/labanda_live" target="_blank"><button class='button-git'>View on Github</button></a>
+							<a href="https://ts-labanda.com/" target="_blank"><button class='button-live'>Live Version</button></a>
+							<hr>
+						</section>
+
+						<section class="project-section">
+							<div class='project-div'>
+								<div class='project-left'>
+									<h3><strong>Scraping with Python Application</strong></h3>
+									<img class="image fit" src="images/cars.jpg" alt="" />
+									<p>This application scrape serbian website https://www.kupujemprodajem.com for used cars that people put out for sale. User inputs parameters for scraping. It runs in terminal.</p>
+									<h4><strong>Technologies used:</strong></h4>
+									<div class='technologies'>
+										<ul>
+											<li>Python</li>
+											<li>Requests</li>
+										</ul>
+										<ul>
+											<li>Beautiful Soup</li>
+											<li>CSV</li>
+										</ul>
+									</div>
+								</div>
+								<div class='project-right'>
+									<h4><strong>Notable features:</strong></h4>
+									<ul>
+										<li>There are two .py files - for scraping, and for sorting already scraped cars</li>
+										<li>Scrape website https://www.kupujemprodajem.com for used cars according to user inputs: car model, make year, price</li>
+										<li>Write results to CSV file called cars.csv</li>
+										<li>In CSV file there are headers - model, price, city, description</li>
+										<li>File cars_statistics.py sort scraped cars by some input parameters: price, alphabetical, make year, city</li>
+										<li>Make year of car is extracted from scraped car description</li>
+									</ul>
+								</div>
+							</div>
+							<a href="https://github.com/bojan-morvai/scraping_app" target="_blank"><button class='button-git'>View on Github</button></a>
+							<a href="https://github.com/bojan-morvai/scraping_app" target="_blank"><button class='button-live'>Live Version</button></a>
+							<hr>
+						</section>
+						<button class='show-less'>Show Less</button>
+
+						
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div>
+						<section class="contact 4u$ 12u$(medium) 12u$(small)">
+							<h3 id='my-contact' class='contact-h3'>Contact Me</h3>
+							<ul class="icons">
+								<li><a href="https://www.facebook.com/bojan.morvai" target="_blank" class="icon rounded fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="https://github.com/bojan-morvai" target="_blank" class="icon rounded fa-github"><span class="label">Pinterest</span></a></li>
+							</ul>
+							<ul class="tabular">
+								<li>
+									<h3>Address</h3>
+									Anice Savic Rebac 6,<br>
+									21000 Novi Sad, Serbia
+								</li>
+								<li>
+									<h3>Mail</h3>
+									<a href="mailto:bojanklisa@gmail.com"><p>bojanklisa@gmail.com</p></a>
+								</li>
+							</ul>
+						</section>
+					</div>
+				</div>
+			</footer>
+
+	</body>
+
+	<script src="js/main.js"></script>
+</html>

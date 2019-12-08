@@ -1,0 +1,330 @@
+@-ms-viewport {
+	width: device-width;
+}
+
+body {
+    display: none;
+    cursor: default;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.contact{
+    margin: auto;
+    width: 50%;
+}
+
+h4{
+    margin-bottom: 0.5rem;
+}
+
+#footer{
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+.contact h3{
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+body.landing #header.scroll{
+    background-color: #202222;
+    opacity: 80%;
+}
+
+#header h1{
+    margin-left:2rem;
+}
+
+#nav{
+    font-size: 1.25rem;
+}
+
+.demo-icon{
+    border-radius: 100%;
+	display: inline-block;
+	height: 2em;
+	line-height: 2em;
+	text-align: center;
+	width: 2em;
+}
+
+/* .feature{
+    width:45%;
+} */
+.desc-project{
+    font-size:1rem;
+    height:40rem;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* text-align: left; */
+}
+
+/* ul{
+    list-style: none;
+} */
+
+.row{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    height: 122rem;
+    overflow: hidden;
+    /* background:linear-gradient(transparent 110px, black); IDEJAAAA */ 
+}
+
+.row-all{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: unset;
+}
+
+.feature{
+    border: 1px solid black;
+    width: 48%;
+    padding:0;
+    margin-left: 0.65rem;
+    margin-right: 0.65rem;
+    margin-bottom:2rem;
+}
+
+.project-section{
+    width:80%;
+    padding:0;
+    margin: auto;
+}
+.project-div{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+.project-left, .project-right{
+    width:48%;
+}
+
+.project-left p, .project-right ul{
+    text-align: justify;
+}
+
+.project-right h4{
+    margin-top: 1.6rem;
+}
+
+.technologies{
+    display:flex;
+    justify-content: flex-start;
+}
+.technologies ul{
+    margin-right: 1.8rem;
+}
+.technologies ul, .project-right ul{
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.button-git, .button-live, .show-more, .show-less , .show-all{
+    margin-top: 0.5rem;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    border-radius: 4px;
+    border: 0;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    height: 2.85em;
+    line-height: 2.8em;
+    padding: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.show-more, .show-less, .show-all{
+    margin: 0 auto;
+    border: solid 1px black;
+    width:30%;
+    color:black;
+    background-color: white;
+    z-index: 1;
+}
+
+
+.show-more:hover, .show-less:hover, .show-all:hover{
+    color:black;
+    background-color: rgb(180, 180, 180);
+}
+
+.show-all{
+    display:none;
+    margin-bottom: 3em;
+}
+
+.button-git{
+    background-color: rgb(32, 31, 31);
+    margin-right: 2rem;
+}
+
+.button-live{
+    background-color: chocolate;
+}
+
+.button-git:hover{
+    background-color: gray;
+}
+
+.button-live:hover{
+    background-color: rgb(230, 179, 42);
+}
+hr { 
+    /* transform: rotate(90deg); */
+    display: block;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 3px;
+    margin: 2rem -3rem 4.5rem -3rem;
+}
+
+.section-overflow{
+    margin-top: -3rem;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity: 0.55;
+}
+
+@media screen and (max-width: 1130px){
+    .row{
+        height: 123em;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .row{
+        height: 120em;
+    }
+    .project-section{
+        width:85%;
+    }
+}
+
+@media screen and (max-width: 951px){
+    .row{
+        height: 122em;
+    }
+
+    .project-section{
+        width:90%;
+    }
+}
+
+@media screen and (max-width: 869px){
+    .row{
+        height: 125em;
+    }
+
+    .project-section{
+        width:95%;
+    }
+}
+@media screen and (max-width: 801px){
+    .style2{
+        padding-top:2em;
+    }
+    
+    .row{
+        height: 131em;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .row{
+        height: 131em;
+        font-size:93%;
+    }
+
+    .project-section{
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 722px){
+    .row{
+        height: 137em;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .row{
+        height: 141em;
+    }
+}
+
+@media screen and (max-width: 658px){
+    .row{
+        height: 0;
+    }
+
+    .show-all, .show-less, .show-more{
+        width:40%;
+    }
+
+    .show-all{
+        display:block;
+    }
+
+    .show-more{
+        display:none;
+    }
+
+    .project-div{
+        display:block;
+    }
+
+    .project-left, .project-right{
+        width:unset;
+    }
+
+    body{
+        font-size:85%;
+    }
+
+    .show-less{
+        padding:0;
+    }
+
+    .contact{
+        font-size: 100%;
+        width:100%;
+        text-align: center;
+    }
+
+    ul.tabular li{
+        padding:0;
+        font-size: 1.2rem;
+    }
+
+    ul.tabular li h3{
+        width:unset;
+        position:unset;
+    }
+}
