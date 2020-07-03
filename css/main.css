@@ -204,7 +204,7 @@ hr {
     opacity: 0.55;
 }
 
-@media screen and (max-width: 1130px){
+@media screen and (max-width: 1215px){
     .row{
         height: 123em;
     }
@@ -318,5 +318,11 @@ hr {
     ul.tabular li h3{
         width:unset;
         position:unset;
+    }
+}
+
+@media screen and (min-width: 1216px){
+    .container{
+        width: 1200px;
     }
 }
