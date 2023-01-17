@@ -11,9 +11,9 @@
 	body, input, select, textarea {
 		color: #444;
 		font-family: "Lato", Helvetica, sans-serif;
-		font-size: 15pt;
+		font-size: 14pt;
 		font-weight: 300;
-		line-height: 1.65em;
+		line-height: 1.6em;
 	}
 
 	a {
@@ -931,7 +931,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0em 4em;
+		padding: 3em 0em 4em;
 	}
 
 		.wrapper.style1 {

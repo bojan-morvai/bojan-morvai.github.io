@@ -73,6 +73,7 @@ body.landing #header.scroll{
     /* background:linear-gradient(transparent 110px, black); IDEJAAAA */ 
 }
 
+
 .row-all{
     margin:0;
     display: flex;
@@ -91,7 +92,7 @@ body.landing #header.scroll{
 }
 
 .project-section{
-    width:80%;
+    width:90%;
     padding:0;
     margin: auto;
 }
@@ -206,24 +207,17 @@ hr {
 
 @media screen and (max-width: 1215px){
     .row{
-        height: 123em;
+        height: 110em;
     }
 }
 
 @media screen and (max-width: 980px){
-    .row{
-        height: 120em;
-    }
     .project-section{
         width:85%;
     }
 }
 
 @media screen and (max-width: 951px){
-    .row{
-        height: 122em;
-    }
-
     .project-section{
         width:90%;
     }
@@ -231,7 +225,7 @@ hr {
 
 @media screen and (max-width: 869px){
     .row{
-        height: 125em;
+        height: 105em;
     }
 
     .project-section{
@@ -242,32 +236,16 @@ hr {
     .style2{
         padding-top:2em;
     }
-    
-    .row{
-        height: 131em;
-    }
 }
 
 @media screen and (max-width: 750px){
     .row{
-        height: 131em;
+        height: 110em;
         font-size:93%;
     }
 
     .project-section{
         width:100%;
-    }
-}
-
-@media screen and (max-width: 722px){
-    .row{
-        height: 137em;
-    }
-}
-
-@media screen and (max-width: 700px){
-    .row{
-        height: 141em;
     }
 }
 
@@ -318,11 +296,5 @@ hr {
     ul.tabular li h3{
         width:unset;
         position:unset;
-    }
-}
-
-@media screen and (min-width: 1216px){
-    .container{
-        width: 1200px;
     }
 }
